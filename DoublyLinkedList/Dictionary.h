@@ -2,6 +2,7 @@
 #include<iostream>
 #include"LinkedList.h"
 #include<string>
+using namespace Algorithm;
 using HASH = long long int;
 using UCHAR = unsigned char;
 template<class TKey,class TValue>

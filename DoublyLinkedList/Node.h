@@ -1,20 +1,24 @@
 #pragma once
 #include<iostream>
-template<typename T>
-class Node
+namespace Algorithm
 {
-public:
-	Node* prev;
-	Node* next;
-	T data;
-	Node(T value)
+	template<typename T>
+	class Node
 	{
-		data = value;
-		prev = NULL;
-		next = NULL;
-	}
-	Node(){}
-};
+	public:
+		Node* prev;
+		Node* next;
+		T data;
+		Node(T value)
+		{
+			data = value;
+			prev = nullptr;
+			next = nullptr;
+		}
+		Node() {}
+	};
+}
+
 
 
 

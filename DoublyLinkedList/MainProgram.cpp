@@ -11,7 +11,7 @@ using namespace std::chrono;
 int main()
 {
 	
-	/*Node<int>* va = new Node<int>();
+	Node<int>* va = new Node<int>();
 	Node<int>* va2 = new Node<int>();
 	va2->data = 7;
 	va->data = 5;
@@ -21,13 +21,13 @@ int main()
 	newList->AddFirst(3);
 	newList->AddFirst(2);
 	newList->AddFirst(4);
-	newList->AddLast(va);
+	/*newList->AddLast(va);
 	newList->AddFirst(va2);
 	newList->AddFirst(va2);
 	newList->AddFirst(va2);
 	newList->Remove(va);
-	newList->Remove(va);
-	newList->Display();*/
+	newList->Remove(va);*/
+	newList->Display();
 	//int a[100] = {5, 10, 12, 33, -5, 4, 1,11,12,43,12,11,56,78,90,45,23,65,23,11,-10,12};
 	///*IntroSort sort;
 	//sort.heapSort(a, 7);
@@ -53,7 +53,7 @@ int main()
 	//{
 	//	cout << a[i] << " ";
 	//}
-	Dictionary<string,string>* dictionary = new Dictionary<string, string>();
+	/*Dictionary<string,string>* dictionary = new Dictionary<string, string>();
 	string name = "Nguyen";
 	string anotherName = "Nguyen";
 	dictionary->Add(&name, "Huu Dung");
@@ -61,7 +61,7 @@ int main()
 	if (dictionary->TryGetValue(&anotherName, &value))
 	{
 		cout << value << endl;
-	}
+	}*/
 	//string name = "Nguyen";
 	/*dictionary->Add("Nguyen", "Huu Dung");
 	string value = "";
